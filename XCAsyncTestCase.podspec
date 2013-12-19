@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://premosystems.github.io/XCAsyncTestCase/"
   s.license      = 'MIT (example)'
   s.author       = { "Premier Mobile Systems" => "info@premosystems.com" }
+	s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/iiiyu/XCAsyncTestCase.git", :tag => "0.0.1" }
   s.source_files  = 'AsyncXCTestingKit/', 'AsyncXCTestingKit/AsyncXCTestingKit/XCTestCase+AsyncTesting.{h,m}'
   s.framework = 'XCTest'	
